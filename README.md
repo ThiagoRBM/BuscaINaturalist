@@ -11,13 +11,13 @@ Existem 3 funções no script:
 3. A terceira função recebe um vetor de códigos de taxa e um vetor de códigos de localidades e busca informações no site. Uma tabela é gerada, com as seguintes colunas: 
 
 - **quality_grade**: qualidade da observação, uma vez que o site classifica as mesmas em vários níveis (e.g., "casual", "pesquisa" e etc).  
-- **quality_grade**: data da observação.  
+- **time_observed_at**: data da observação.  
 - **id**: código da observação (assim como acontece com taxa e localidade, cada observação tem um código).  
 - **uuid**: outro código único para cada observação, em outro formato.  
 - **identifications_most_agree**: se a comunidade do site concorda com a identificação ou não. Caso só existe uma identificação na observação ou caso exista discordância na identidade, o valor será FALSE. Essa coluna é melhor ser usada em conjunto com **quality_grade**.  
 - **species_guess**: espécie que o autor da observação sugeriu. Pode ter valores bem variáveis e não necessariamente nome cientifico. Identificações como "planta", "pássaro", aparecerão nesse campo.  
 - **tags**: observações do autor, também variadas, geralmente (mas nem sempre) relacionadas ao ambiente que o organismo foi visto (por exemplo, bioma, se perto de um riacho, etc).  
-- **created_at**: quando a observação foi criada.  
+- **created_at**: quando a observação foi criada (ela pode ter sido criada em um dia diferente da observação em si).  
 - **description**: outro campo variável, aberto a qualquer coisa que o criador da observação tenha achado relevante escrever. Na maioria das vezes está em branco.
 - **uri**: url da observação. Copiando e colando o valor em um navegador, é possível ir direto para a observação.  
 - **community_taxon_id**: o taxon ao qual a comunidade acha que o organismo pertence. Em formato de código.  
