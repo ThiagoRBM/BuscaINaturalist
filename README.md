@@ -28,4 +28,4 @@ Existem 3 funções no script:
 - **hospedeira.cod**: taxon espécie hospedeira, em formato de código.  
 - **flores** , **frutos** e **botao**: informações da fenologia na planta, caso a comunidade ou o autor tenham indicado.  
 
-Mais funcionalidade podem ser adicionadas, conforme necessidade de quem usar.
+Mais funcionalidades podem ser adicionadas, conforme necessidade de quem usar.
