@@ -27,3 +27,5 @@ Existem 3 funções no script:
 - **hospedeira.nome**: taxon espécie hospedeira, caso o autor tenha fornecido. Informação pode ser útil ao se procurar dados de abelhas ou plantas parasitas, por exemplo.  
 - **hospedeira.cod**: taxon espécie hospedeira, em formato de código.  
 - **flores** , **frutos** e **botao**: informações da fenologia na planta, caso a comunidade ou o autor tenham indicado.  
+
+Mais funcionalidade podem ser adicionadas, conforme necessidade de quem usar.
