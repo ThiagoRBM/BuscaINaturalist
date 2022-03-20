@@ -1,6 +1,6 @@
 # BuscaINaturalist
 
-Script que, com base em uma lista de nomes de taxa (qualquer nível, espécie, gênero, família, etc) e uma lista de nomes de localidades (países, cidades e estados funcionam bem aparentemente), retorna uma tabela com as observações registradas no INaturalist e informações como data, coordenadas, descrição quando o autor coloca, fenologia e etc, usando a API do site.
+Script que, com base em uma lista de nomes de taxa (qualquer nível, espécie, gênero, família, etc) e uma lista de nomes de localidades (países, cidades e estados funcionam bem aparentemente), retorna uma tabela com as observações registradas no INaturalist e informações como data, coordenadas, descrição quando o autor coloca, fenologia e etc, usando a API do site INaturalist (https://www.inaturalist.org/).
 
 A tabela "NomesInat.xlsx" nesse repositório serve como um exemplo simples de uso.
 
